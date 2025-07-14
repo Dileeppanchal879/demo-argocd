@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: flask-app-container
-        image: dileeppanchal05/demo-argocd-app:latest
+        image: dileeppanchal05/demo-argocd-app:6
         ports:
         - containerPort: 5000
 ---
